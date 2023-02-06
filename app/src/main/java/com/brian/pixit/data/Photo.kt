@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 
 
 @Entity(tableName = "pixit_photo")
-data class photo(
+data class Photo(
     @PrimaryKey(autoGenerate = false)
     val id: Int,
 
